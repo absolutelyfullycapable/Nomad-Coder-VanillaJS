@@ -18,6 +18,6 @@ const calculator = {
 
 calculator.plus(1, 2); // 3
 calculator.minus(5, 3); // 2
-calculator.divide(5, 10); // 2
+calculator.divide(5, 10); // 0.5
 calculator.multiply(3, 4); // 12
 calculator.square(5); // 25
