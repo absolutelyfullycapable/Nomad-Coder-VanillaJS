@@ -5,4 +5,4 @@
 - 강의를 들으며 공부한 내용을 기록합니다.
 
 ### studying
-- 2021-06-28 ~ : [바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners)
+- 2022-05-16 ~ : [바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners)
