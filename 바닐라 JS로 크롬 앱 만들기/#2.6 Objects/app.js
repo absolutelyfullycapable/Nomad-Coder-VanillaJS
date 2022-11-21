@@ -1,5 +1,11 @@
 /*
-  회차 목적: 객체(Object)가 무엇인지, 어떻게 사용하는지, 배열(Array)와 다른 점이 무엇인지, 객체에서 무엇인가를 얻어오는 방법, 객체에 무엇인가 추가하거나 업데이트하는 방법에 대해 알기
+  [회차 목적]
+
+  1. 객체(Object)가 무엇인지
+  2. 그것을 어떻게 사용하는지
+  3. 객체와 배열(Array)와 다른 점이 무엇인지
+  4. 객체에서 무엇인가를 얻어오는 방법
+  5. 객체에 무엇인가 추가하거나 업데이트하는 방법
 */
 
 // 만약 게임을 만들 때 객체라는 것이 없다면..
@@ -22,7 +28,6 @@ const player2 = {
   fat: "little bit"
 };
 
-console.log(player2);
 console.log(player2.name); // "nico"
 console.log(player2["name"]); // "nico"
 
@@ -33,16 +38,19 @@ console.log(player2["name"]); // "nico"
 
 /*
   객체도 배열과 마찬가지로 데이터를 정리하는 데 아주 좋은 방식임
-  하지만 리스트는 아님 => 리스트는 모든 값이 같은 의미를 가지기 때문 ex) 한 주의 요일 리스트를 가진다면 그 리스트에 있는 모든 것이 한 주의 요일이라는 것을 앎
+  하지만 리스트는 아님 => 리스트는 모든 값이 같은 의미를 가지기 때문
+  ex) 한 주의 요일 리스트를 가진다면 그 리스트에 있는 모든 것이 한 주의 요일이라는 것을 앎
 */
 
 console.log(player2); // { name: "nico", points: 121212, handsome: false, fat: "little bit" }
+ // 객체 업데이트 가능 ↓
 player2.fat = false;
 player2.lastName = "potato";
-console.log(player2); // { name: "nico", points: 121212, handsome: false, fat: false, last name: "potato" } // 객체 업데이트 가능
+console.log(player2); // { name: "nico", points: 121212, handsome: false, fat: false, last name: "potato" }
 
 /*
   Q. const로 선언된 변수의 값은 변할 수 없다고 했는데 어떻게 업데이트가 가능한 건가요?
-  A. player라는 객체는 동일하고, 그 객체 안에 있는 값을 변경하기 때문에 가능
-  const 에러는 전체를 하나의 값으로서 업데이트하려고 할 때 발생함
+  A. player2라는 객체는 동일하고, 그 객체 안에 있는 값을 변경하기 때문에 가능
+     const 에러는 전체를 하나의 값으로서 업데이트하려고 할 때 발생함
+     ex) player2 = false; (객체였던 player2를 Boolean으로 업데이트함 → Error)
 */
