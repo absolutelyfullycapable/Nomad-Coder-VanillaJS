@@ -1,4 +1,4 @@
-# 📝 Nomad Coder
+# 📝 Nomad Coder - VanillaJS
 
 ### about
 - 이곳은 **Nomad Coder 바닐라 JS로 크롬 앱 만들기 공부 기록 저장소**입니다.
