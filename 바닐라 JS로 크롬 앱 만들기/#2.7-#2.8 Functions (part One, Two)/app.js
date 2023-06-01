@@ -43,21 +43,25 @@ sayHi("lynn", 21);
 
 // 계산기 만들어 보기
 const calculator = {
-  plus: function(firstNumber, secondNumber) {
-    console.log(firstNumber + secondNumber);
+  add: function(a, b) {
+    console.log(a + b);
   },
-  minus: function(firstNumber, secondNumber) {
-    console.log(firstNumber - secondNumber);
+  minus: function(a, b) {
+    console.log(a - b);
   },
-  divide: function(firstNumber, secondNumber) {
-    console.log(firstNumber / secondNumber);
+  divide: function(a, b) {
+    console.log(a / b);
   },
-  multiply: function(firstNumber, secondNumber) {
-    console.log(firstNumber * secondNumber);
+  multiply: function(a, b) {
+    console.log(a * b);
+  },
+  square: function(a, b) {
+    console.log(a ** b);
   }
 }
 
-calculator.plus(5, 4); // 9
-calculator.minus(5, 4); // 1
-calculator.divide(4, 2); // 2
-calculator.multiply(5, 4); // 20
+calculator.add(1, 2); // 3
+calculator.minus(3, 4); // -1
+calculator.divide(5, 6); // 0.8333333333333334
+calculator.multiply(7, 8); // 56
+calculator.square(9, 10); // 3486784401
