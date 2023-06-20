@@ -20,3 +20,9 @@ title.addEventListener("click", handleTitleClick);
 */
 title.addEventListener("mouseenter", handleMouseEnter); // 마우스를 위에 올려놓았을 때의 이벤트
 title.addEventListener("mouseleave", handleMouseLeave); // 마우스가 벗어났을 때의 이벤트
+
+/*
+  listen 하고 싶은 event를 찾는 가장 좋은 방법
+  (1) 구글에 찾고 싶은 element의 이름(예를 들어 h1 element)을 MDN(Mozilla Developer Network)에 검색
+  (2) 링크에 Web APIs라는 문장이 포함된 페이지를 찾음 => JS 관점에서의 element를 설명해 주기 때문
+*/
