@@ -7,8 +7,8 @@ function onLoginSubmit(event) {
 
   const userName = loginInput.value;
 
-  console.log(event);
-  console.log(userName); // SubmitEvent
+  console.log(event); // SubmitEvent
+  console.log(userName);
 }
 
 function handleLinkClick(event) {
