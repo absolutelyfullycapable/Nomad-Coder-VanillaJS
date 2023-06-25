@@ -12,7 +12,7 @@ function sayHello() {
 }
 
 function getClock() {
-  const date = new Date();
+  const date = new Date(); // Date 객체 생성 (Date 객체는 호출하는 당시의 현재 날짜와 시간을 알려 줌)
 
   clock.innerText = `${date.getHours()}:${date.getHours()}:${date.getSeconds()}`;
 }
