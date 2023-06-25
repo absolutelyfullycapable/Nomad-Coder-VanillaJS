@@ -19,7 +19,7 @@ loginForm.addEventListener("submit", onLoginSubmit);
 /*
   Local Storage
 
-  - 브라우저에 무엇인가 저장할 수 있게 해 줌 (나중에 가져다 쓰기 가능)
+  - 정보를 저장하고 불러오고 삭제하는, 브라우저가 가지고 있는 작은 DB 같은 API
   - Local Storage에 무엇이 들어 있는지 보고 싶다면 개발자 도구 이용하면 됨 (개발자 도구 -> Application -> Storage -> Local Storage)
 
   - Local Storage API (https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
